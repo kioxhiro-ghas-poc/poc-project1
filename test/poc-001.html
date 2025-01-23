@@ -4,7 +4,9 @@
 </head>
 <body>
     <script>
-        document.write('poc-001');
+        const poc001 = window.location.hash.substring(1);
+        const textNode = document.createTextNode(poc001);
+        document.body.appendChild(textNode);
     </script>
 </body>
 </html>
