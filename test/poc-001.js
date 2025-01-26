@@ -1,2 +1,2 @@
 const poc001 = window.location.hash.substring(1);
-document.write(poc001);
+document.write('poc001');
